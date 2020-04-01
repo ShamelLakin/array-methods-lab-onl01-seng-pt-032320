@@ -1,5 +1,7 @@
+require 'pry'
 def using_include(array, element)
 array.include?(element)
+binding.pry
 end
 
 def using_sort(array)
